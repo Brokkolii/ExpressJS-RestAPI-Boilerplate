@@ -1,5 +1,5 @@
 const config = {
-  port: 8080,
+  port: process.env.PORT || 3000,
   cors: {
     //origin: 'http://example.com',
   }
